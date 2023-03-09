@@ -1,0 +1,44 @@
+﻿
+@model IEnumerable<Appointments>
+<div class="content">
+    <h2>Appointments</h2>
+    <hr />
+    <div class="row">
+        <div class="col-12">
+            <a asp-action="Create" class="btn btn-secondary mb-2">New Appointments</a>
+        </div>
+        <div class="col-12">
+            <table class="table table-bordered table-hover table-sm font-sm">
+                <colgroup>
+                    <col class="col-3" />
+                    <col class="col-3" />
+                    <col class="col-5" />
+                    <col class="col-1" />
+                </colgroup>
+                <thead class="bg-primary text-light">
+                    <tr>
+                        <th>Name</th>
+                        <th>Date and Time</th>
+                        <th>Purpose</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var appointment in Model)
+                    {
+                        <tr>
+                            <td>@appointment.Name</td>
+                            <td>@appointment.Date</td>
+                            <td>@appointment.Purpose</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@appointment.Name" class="btn btn-info">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@appointment.Name" class="btn btn-danger">Delete</a>
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
