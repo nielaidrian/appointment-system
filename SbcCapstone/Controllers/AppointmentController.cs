@@ -19,6 +19,7 @@ namespace SbcCapstone.Controllers
         //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Appointments appointments)
         {
+            //Added fix
             if(!ModelState.IsValid)
             {
                 return View(appointments);
