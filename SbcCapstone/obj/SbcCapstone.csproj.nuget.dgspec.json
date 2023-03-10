@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nimrod21\\source\\repos\\SbcCapstone\\SbcCapstone.csproj": {}
+    "C:\\Source\\appointment-system\\SbcCapstone\\SbcCapstone.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nimrod21\\source\\repos\\SbcCapstone\\SbcCapstone.csproj": {
+    "C:\\Source\\appointment-system\\SbcCapstone\\SbcCapstone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nimrod21\\source\\repos\\SbcCapstone\\SbcCapstone.csproj",
+        "projectUniqueName": "C:\\Source\\appointment-system\\SbcCapstone\\SbcCapstone.csproj",
         "projectName": "SbcCapstone",
-        "projectPath": "C:\\Users\\Nimrod21\\source\\repos\\SbcCapstone\\SbcCapstone.csproj",
-        "packagesPath": "C:\\Users\\Nimrod21\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nimrod21\\source\\repos\\SbcCapstone\\obj\\",
+        "projectPath": "C:\\Source\\appointment-system\\SbcCapstone\\SbcCapstone.csproj",
+        "packagesPath": "C:\\Users\\maki\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\appointment-system\\SbcCapstone\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nimrod21\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,8 +75,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -88,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
