@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Samples.Abstraction
+namespace Samples.Abstraction.Juicer
 {
-    public class BrevilleCoffeeMachine
+    public interface IJuicer
     {
+        void MakeJuice();
     }
 }
