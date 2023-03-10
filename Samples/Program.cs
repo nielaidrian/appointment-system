@@ -26,16 +26,27 @@ namespace Samples
 
             //Console.ReadLine();
 
-            IJuicer pureMate = new PureMate();
-            IJuicer dualit = new Dualit();
-            IJuicer livivo = new Livivo();
+            //IJuicer pureMate = new PureMate();
+            //IJuicer dualit = new Dualit();
+            //IJuicer livivo = new Livivo();
 
-            MakeJuice(pureMate);
-            MakeJuice(dualit);
-            MakeJuice(livivo);
+            //MakeJuice(pureMate);
+            //MakeJuice(dualit);
+            //MakeJuice(livivo);
+
+            Console.WriteLine("Appointment A");
+            Console.WriteLine("Appointment B");
+            Console.WriteLine("Appointment C");
+            Console.WriteLine("Appointment D");
 
             Console.ReadLine();
 
+        }
+
+        static void PrintAppointmentNumbers()
+        { 
+            //Implement this method
+            //this should print Appointment A - Z
         }
 
         static void MakeJuice(IJuicer juicer)
