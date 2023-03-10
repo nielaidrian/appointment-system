@@ -9,6 +9,7 @@ namespace Samples.Abstraction
 
     public class TassimoCoffeeMachine : CoffeeMachine
     {
+
         public override string MakeCoffee()
         {
             return "Tassimo Coffee Machine Making Coffee";
