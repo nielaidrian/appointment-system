@@ -276,3 +276,6 @@ C:\Users\Nimrod21\source\repos\SbcCapstone\bin\Debug\net6.0\Microsoft.Build.dll
 C:\Users\Nimrod21\source\repos\SbcCapstone\bin\Debug\net6.0\Microsoft.Build.Framework.dll
 C:\Users\Nimrod21\source\repos\SbcCapstone\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
 C:\Users\Nimrod21\source\repos\SbcCapstone\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+C:\Source\appointment-system\SbcCapstone\obj\Debug\net6.0\SbcCapstone.dll
+C:\Source\appointment-system\SbcCapstone\obj\Debug\net6.0\refint\SbcCapstone.dll
+C:\Source\appointment-system\SbcCapstone\obj\Debug\net6.0\SbcCapstone.pdb
