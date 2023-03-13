@@ -34,19 +34,18 @@ namespace Samples
             //MakeJuice(dualit);
             //MakeJuice(livivo);
 
-            Console.WriteLine("Appointment A");
-            Console.WriteLine("Appointment B");
-            Console.WriteLine("Appointment C");
-            Console.WriteLine("Appointment D");
-
+            IAppointmentPrint appointmentA = new AppointmentA();
+            
+            PrintAppointmentNumbers(appointmentA);
             Console.ReadLine();
 
         }
 
-        static void PrintAppointmentNumbers()
+        static void PrintAppointmentNumbers(IAppointmentPrint print)
         { 
             //Implement this method
             //this should print Appointment A - Z
+            print.PrintAppointmentNumbers();
         }
 
         static void MakeJuice(IJuicer juicer)
